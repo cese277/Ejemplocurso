@@ -7,6 +7,7 @@ class Perro {
     ladrar() {
         console.log(`${this.nombre} dice: ¡Guau!`);
     }
+    
     presentarse() {
         console.log(`Hola, mi nombre es ${this.nombre} y soy un ${this.raza}.`);
     }
